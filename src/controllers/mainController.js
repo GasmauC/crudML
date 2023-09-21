@@ -51,8 +51,8 @@ const controller = {
 				}
 			  },
 		})
-			Promise.all([results])
-			.then(([results])=>{
+			
+			.then((results)=>{
 				return res.render('results',{
 					results,
 					toThousand,
